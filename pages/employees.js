@@ -19,6 +19,7 @@ const Employees = () => {
     department: '',
     position: '',
     employeeId: '',
+    password: 'staff' // 默认密码
   });
 
   // 显示通知
@@ -93,6 +94,7 @@ const Employees = () => {
         department: '',
         position: '',
         employeeId: '',
+        password: 'staff'
       });
       setShowAddModal(false);
       
@@ -391,6 +393,18 @@ const Employees = () => {
                           required
                         />
                       </div>
+                      <div className="mb-4">
+                        <label htmlFor="password" className="block text-sm font-medium text-gray-700">密码</label>
+                        <input
+                          type="text"
+                          name="password"
+                          id="password"
+                          className="mt-1 focus:ring-indigo-500 focus:border-indigo-500 block w-full shadow-sm sm:text-sm border-gray-300 rounded-md"
+                          value={newEmployee.password}
+                          onChange={handleInputChange}
+                          required
+                        />
+                      </div>
                     </div>
                   </div>
                 </div>
@@ -485,6 +499,18 @@ const Employees = () => {
                           required
                         />
                       </div>
+                      <div className="mb-4">
+                        <label htmlFor="edit-password" className="block text-sm font-medium text-gray-700">密码</label>
+                        <input
+                          type="text"
+                          name="password"
+                          id="edit-password"
+                          className="mt-1 focus:ring-indigo-500 focus:border-indigo-500 block w-full shadow-sm sm:text-sm border-gray-300 rounded-md"
+                          value={editEmployee.password || 'staff'}
+                          onChange={handleEditChange}
+                          required
+                        />
+                      </div>
                     </div>
                   </div>
                 </div>
@@ -564,4 +590,4 @@ const Employees = () => {
 };
 
 // 使用角色守卫高阶组件包装职工管理页面，只允许管理员访问
-export default withRoleGuard(Employees, ['admin']); 
+export default withRoleGuard(Employees, ['admin']);

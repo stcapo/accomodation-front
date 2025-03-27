@@ -10,7 +10,8 @@ const employees = [
     department: '行政部',
     position: '部门经理',
     entryDate: '2018-01-15',
-    employeeId: 'EMP001'
+    employeeId: 'EMP001',
+    password: 'staff'
   },
   {
     id: 2,
@@ -22,7 +23,8 @@ const employees = [
     department: '人力资源部',
     position: '人事专员',
     entryDate: '2019-03-20',
-    employeeId: 'EMP002'
+    employeeId: 'EMP002',
+    password: 'staff'
   },
   {
     id: 3,
@@ -34,7 +36,8 @@ const employees = [
     department: '技术部',
     position: '高级工程师',
     entryDate: '2017-06-10',
-    employeeId: 'EMP003'
+    employeeId: 'EMP003',
+    password: 'staff'
   },
   {
     id: 4,
@@ -46,7 +49,8 @@ const employees = [
     department: '市场部',
     position: '市场专员',
     entryDate: '2020-02-15',
-    employeeId: 'EMP004'
+    employeeId: 'EMP004',
+    password: 'staff'
   },
   {
     id: 5,
@@ -58,7 +62,8 @@ const employees = [
     department: '财务部',
     position: '会计',
     entryDate: '2016-09-01',
-    employeeId: 'EMP005'
+    employeeId: 'EMP005',
+    password: 'staff'
   },
   {
     id: 6,
@@ -70,7 +75,8 @@ const employees = [
     department: '技术部',
     position: '初级工程师',
     entryDate: '2021-04-10',
-    employeeId: 'EMP006'
+    employeeId: 'EMP006',
+    password: 'staff'
   },
   {
     id: 7,
@@ -82,7 +88,8 @@ const employees = [
     department: '行政部',
     position: '行政专员',
     entryDate: '2019-08-15',
-    employeeId: 'EMP007'
+    employeeId: 'EMP007',
+    password: 'staff'
   },
   {
     id: 8,
@@ -94,7 +101,8 @@ const employees = [
     department: '人力资源部',
     position: '招聘专员',
     entryDate: '2020-03-01',
-    employeeId: 'EMP008'
+    employeeId: 'EMP008',
+    password: 'staff'
   },
   {
     id: 9,
@@ -106,7 +114,8 @@ const employees = [
     department: '市场部',
     position: '市场经理',
     entryDate: '2018-05-20',
-    employeeId: 'EMP009'
+    employeeId: 'EMP009',
+    password: 'staff'
   },
   {
     id: 10,
@@ -118,7 +127,8 @@ const employees = [
     department: '财务部',
     position: '出纳',
     entryDate: '2021-02-15',
-    employeeId: 'EMP010'
+    employeeId: 'EMP010',
+    password: 'staff'
   }
 ];
 

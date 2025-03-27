@@ -64,12 +64,30 @@ const Login = () => {
         login('admin');
         showNotification('管理员登录成功', 'success');
         router.push('/');
-      } else if (username === 'staff' && password === 'staff') {
-        login('staff');
-        showNotification('职工登录成功', 'success');
-        router.push('/');
+        return;
+      }
+      
+      // 从员工数据中查找匹配的用户名和密码
+      const { employees } = window;
+      if (!employees) {
+        // 加载员工数据
+        import('../data/employees').then(module => {
+          window.employees = module.default;
+          checkEmployeeCredentials();
+        });
       } else {
-        showNotification('用户名或密码错误', 'error');
+        checkEmployeeCredentials();
+      }
+      
+      function checkEmployeeCredentials() {
+        const employee = employees.find(emp => emp.name === username);
+        if (employee && employee.password === password) {
+          login('staff');
+          showNotification('职工登录成功', 'success');
+          router.push('/');
+        } else {
+          showNotification('用户名或密码错误', 'error');
+        }
       }
     } finally {
       setLoading(false);
@@ -176,7 +194,8 @@ const Login = () => {
           
           <div className="text-center text-sm text-gray-500">
             <p>管理员账号：admin / 密码：admin</p>
-            <p>职工账号：staff / 密码：staff</p>
+            <p>职工账号：输入职工姓名 / 密码：staff</p>
+            <p>示例员工：张三、李四、王五等</p>
           </div>
         </form>
       </div>

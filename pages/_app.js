@@ -5,6 +5,12 @@ import mockEmployees from '../data/employees';
 import mockAccommodations from '../data/accommodations';
 import mockMaintenanceRecords from '../data/maintenanceRecords';
 
+// 在全局范围内存储员工数据
+// 这样登录页面可以访问员工信息进行身份验证
+if (typeof window !== 'undefined') {
+  window.employees = mockEmployees;
+}
+
 // 创建全局上下文
 export const GlobalContext = createContext();
 export const AuthContext = createContext();
