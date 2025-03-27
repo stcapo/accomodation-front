@@ -1,0 +1,5 @@
+# 忽略IDE相关文件
+.idea/
+.next/
+node_modules/
+.pnpm/
