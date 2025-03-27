@@ -37,7 +37,7 @@ const Login = () => {
       setLoading(true);
       
       // 替换为对后端的请求
-      const response = await fetch('http://localhost:8080/api/login', {
+      const response = await fetch('http://localhost:8081/api/login', {
         method: 'POST',
         headers: {
           'Content-Type': 'application/json',
@@ -99,7 +99,7 @@ const Login = () => {
       <div className="max-w-md w-full space-y-8">
         <div>
           <h2 className="mt-6 text-center text-3xl font-extrabold text-gray-900">
-            职工住宿管理系统
+            职工住房管理系统
           </h2>
           <p className="mt-2 text-center text-sm text-gray-600">
             请登录以继续

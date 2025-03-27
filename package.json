@@ -5,11 +5,11 @@
   "description": "职工住宿管理系统",
   "main": "index.js",
   "scripts": {
-    "dev": "next dev",
-    "build": "next build",
-    "start": "next start",
-    "lint": "next lint"
-  },
+  "dev": "next dev -p 8080",
+  "build": "next build",
+  "start": "next start -p 8080",
+  "lint": "next lint"
+},
   "keywords": [],
   "author": "",
   "license": "ISC",

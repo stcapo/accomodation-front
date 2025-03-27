@@ -6,7 +6,7 @@ const maintenanceRecords = [
     roomInfo: 'A栋-A102',
     type: '水电维修',
     description: '洗手间水龙头漏水',
-    reportDate: '2023-06-15',
+    reportDate: '2025-03-27',
     status: '已完成'
   },
   {
@@ -15,7 +15,7 @@ const maintenanceRecords = [
     roomInfo: 'A栋-A103',
     type: '家具维修',
     description: '书桌抽屉无法正常打开',
-    reportDate: '2023-06-20',
+    reportDate: '2025-03-26',
     status: '已完成'
   },
   {
@@ -24,7 +24,7 @@ const maintenanceRecords = [
     roomInfo: 'B栋-B102',
     type: '电器维修',
     description: '空调不制冷',
-    reportDate: '2023-07-05',
+    reportDate: '2025-03-25',
     status: '待处理'
   },
   {
@@ -33,7 +33,7 @@ const maintenanceRecords = [
     roomInfo: 'A栋-A201',
     type: '门窗维修',
     description: '窗户关不严',
-    reportDate: '2023-07-10',
+    reportDate: '2025-03-24',
     status: '处理中'
   },
   {
@@ -42,7 +42,7 @@ const maintenanceRecords = [
     roomInfo: 'B栋-B202',
     type: '水电维修',
     description: '灯管坏了需要更换',
-    reportDate: '2023-07-15',
+    reportDate: '2025-03-23',
     status: '待处理'
   },
   {
@@ -51,7 +51,7 @@ const maintenanceRecords = [
     roomInfo: 'C栋-C101',
     type: '其他',
     description: '墙面有裂缝需要修补',
-    reportDate: '2023-07-20',
+    reportDate: '2025-03-22',
     status: '处理中'
   },
   {
@@ -60,7 +60,7 @@ const maintenanceRecords = [
     roomInfo: 'B栋-B201',
     type: '电器维修',
     description: '电视遥控器失灵',
-    reportDate: '2023-07-25',
+    reportDate: '2025-03-21',
     status: '待处理'
   },
   {
@@ -69,7 +69,7 @@ const maintenanceRecords = [
     roomInfo: 'C栋-C202',
     type: '水电维修',
     description: '浴室下水道堵塞',
-    reportDate: '2023-08-01',
+    reportDate: '2025-03-20',
     status: '已完成'
   },
   {
@@ -78,7 +78,7 @@ const maintenanceRecords = [
     roomInfo: 'B栋-B101',
     type: '家具维修',
     description: '衣柜门铰链松动',
-    reportDate: '2023-08-05',
+    reportDate: '2025-03-19',
     status: '已完成'
   },
   {
@@ -87,7 +87,7 @@ const maintenanceRecords = [
     roomInfo: 'C栋-C201',
     type: '水电维修',
     description: '厨房水槽漏水',
-    reportDate: '2023-08-10',
+    reportDate: '2025-03-18',
     status: '待处理'
   },
   {
@@ -96,7 +96,7 @@ const maintenanceRecords = [
     roomInfo: 'A栋-A102',
     type: '电器维修',
     description: '床头灯开关失灵',
-    reportDate: '2023-08-15',
+    reportDate: '2025-03-17',
     status: '处理中'
   },
   {
@@ -105,7 +105,7 @@ const maintenanceRecords = [
     roomInfo: 'A栋-A103',
     type: '门窗维修',
     description: '门锁损坏',
-    reportDate: '2023-08-20',
+    reportDate: '2025-03-16',
     status: '待处理'
   },
   {
@@ -114,7 +114,7 @@ const maintenanceRecords = [
     roomInfo: 'C栋-C101',
     type: '水电维修',
     description: '热水器不出热水',
-    reportDate: '2023-09-01',
+    reportDate: '2025-03-15',
     status: '已完成'
   },
   {
@@ -123,7 +123,7 @@ const maintenanceRecords = [
     roomInfo: 'A栋-A201',
     type: '其他',
     description: '墙面霉变需要重新粉刷',
-    reportDate: '2023-09-05',
+    reportDate: '2025-03-14',
     status: '待处理'
   },
   {
@@ -132,9 +132,9 @@ const maintenanceRecords = [
     roomInfo: 'B栋-B202',
     type: '家具维修',
     description: '床板断裂',
-    reportDate: '2023-09-10',
+    reportDate: '2025-03-13',
     status: '处理中'
   }
 ];
 
-export default maintenanceRecords; 
+export default maintenanceRecords;
